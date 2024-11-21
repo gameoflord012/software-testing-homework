@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 max_page = 7
 url = f"https://www.amazon.com/s?k=tools&crid=X89T1N59CQZE&sprefix=tools%2Caps%2C651&ref=nb_sb_noss_1"
 
-output_file_path = "./tool-name-list.txt"
+output_file_path = "./tool-list.txt"
 
 # Headers to mimic a browser request
 headers = {
